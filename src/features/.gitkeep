@@ -1,0 +1,12 @@
+# Features directory
+# Organize feature-based modules here
+# Example structure:
+# features/
+#   auth/
+#     components/
+#     hooks/
+#     utils/
+#   dashboard/
+#     components/
+#     hooks/
+
