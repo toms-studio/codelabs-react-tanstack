@@ -2,6 +2,23 @@
 
 A modern, production-ready boilerplate for building React applications with TypeScript, Vite, TanStack Router, TanStack Query, React Hook Form, Zod, Shadcn UI, and more.
 
+## Quick Start
+
+Create a new project using npx:
+
+```bash
+npx codelabs-react-tanstack my-app
+cd my-app
+npm run dev
+```
+
+This will:
+- Create a new directory with your project name
+- Copy all boilerplate files
+- Initialize a git repository
+- Install all dependencies
+- Set up the project ready for development
+
 ## Features
 
 - ⚡ **Vite** - Fast build tool and dev server
@@ -65,21 +82,34 @@ src/
 
 - Node.js 18+ and npm
 
-### Installation
+### Installation Options
 
-1. Install dependencies:
+#### Option 1: Using npx (Recommended)
+
+Create a new project from the boilerplate:
+
+```bash
+npx codelabs-react-tanstack my-app
+cd my-app
+npm run dev
+```
+
+#### Option 2: Clone and Install Manually
+
+1. Clone or download this repository
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Start the development server:
+3. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Available Scripts
 

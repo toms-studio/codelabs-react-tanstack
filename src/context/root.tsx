@@ -1,6 +1,6 @@
 import type React from 'react';
 import { DarkModeProvider } from './dark-mode.provider';
-import { TanStackQueryProvider } from './tan-stack-query.provider';
+import { TanStackQueryProvider } from './tanstack-query.provider';
 
 interface RootProviderProps {
   children: React.ReactNode;

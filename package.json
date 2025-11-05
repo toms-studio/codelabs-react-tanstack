@@ -1,8 +1,44 @@
 {
   "name": "codelabs-react-tanstack",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A modern, production-ready boilerplate for building React applications with TypeScript, Vite, TanStack Router, TanStack Query, React Hook Form, Zod, Shadcn UI, and more.",
   "type": "module",
+  "bin": {
+    "codelabs-react-tanstack": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "public",
+    "index.html",
+    "vite.config.ts",
+    "tsconfig.json",
+    "biome.json",
+    "commitlint.config.js",
+    "components.json",
+    "lint-staged.config.js",
+    ".gitignore",
+    ".vscode",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "vite",
+    "tanstack-router",
+    "tanstack-query",
+    "typescript",
+    "boilerplate",
+    "template",
+    "shadcn-ui",
+    "react-hook-form",
+    "zod"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

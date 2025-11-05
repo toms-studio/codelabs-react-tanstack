@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Development files
+.idea/
+.DS_Store
+*.log
+*.local
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Git
+.git/
+.gitignore
+.husky/
+
+# Test files (if any)
+coverage/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation (optional - you might want to include README)
+# README.md
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# TanStack Router generated files (will be regenerated)
+src/routeTree.gen.ts
+
