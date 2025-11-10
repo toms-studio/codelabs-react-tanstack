@@ -21,7 +21,6 @@ dist-ssr/
 # Git
 .git/
 .gitignore
-.husky/
 
 # Test files (if any)
 coverage/
