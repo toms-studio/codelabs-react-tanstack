@@ -1,6 +1,6 @@
 {
   "name": "codelabs-react-tanstack",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A modern, production-ready boilerplate for building React applications with TypeScript, Vite, TanStack Router, TanStack Query, React Hook Form, Zod, Shadcn UI, and more.",
   "type": "module",
   "bin": {
@@ -19,6 +19,7 @@
     "lint-staged.config.js",
     ".gitignore",
     ".vscode",
+    ".husky",
     "README.md"
   ],
   "keywords": [
