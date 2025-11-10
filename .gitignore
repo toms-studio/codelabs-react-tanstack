@@ -35,5 +35,3 @@ dist-ssr
 # TanStack Router
 src/routeTree.gen.ts
 
-# Husky
-.husky/_/
